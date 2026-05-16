@@ -89,7 +89,7 @@ namespace TicTacToeGame
             if (btn.Text != "") return;
 
             btn.Text = currentPlayer;
-            btn.ForeColor = (currentPlayer == "X") ? Color.Green : Color.Red;
+            btn.ForeColor = (currentPlayer == "X") ? Color.Blue : Color.Red;
 
             if (CheckWin())
             {
