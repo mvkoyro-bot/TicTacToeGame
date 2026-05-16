@@ -41,7 +41,7 @@ namespace TicTacToeGame
         private void SetupGame()
         {
             this.Text = "Крестики-нолики";
-            this.Size = new Size(350, 470);
+            this.Size = new Size(360, 470);
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
             this.StartPosition = FormStartPosition.CenterScreen;
 
