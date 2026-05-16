@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 using System;
 using System.Drawing;
 using System.IO;
@@ -42,6 +41,7 @@ namespace TicTacToeGame
         {
             this.Text = "Крестики-нолики";
             this.Size = new Size(360, 470);
+            this.Size = new Size(350, 470);
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
             this.StartPosition = FormStartPosition.CenterScreen;
 
@@ -190,7 +190,6 @@ namespace TicTacToeGame
             Application.Run(new Form1());
         }
     }
-=======
 using System;
 using System.Drawing;
 using System.IO;
@@ -282,6 +281,7 @@ namespace TicTacToeGame
 
             btn.Text = currentPlayer;
             btn.ForeColor = (currentPlayer == "X") ? Color.Blue : Color.Red;
+            btn.ForeColor = (currentPlayer == "X") ? Color.Green : Color.Red;
 
             if (CheckWin())
             {
@@ -382,5 +382,4 @@ namespace TicTacToeGame
             Application.Run(new Form1());
         }
     }
->>>>>>> 90d23ffa075a5c531fd53f4f01aed39878887aa3
 }
